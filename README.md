@@ -20,7 +20,7 @@ this script also has a friendly-user interface to prevent errors.
 **WARNING :**    
 **Devices needs to be already claimed in the right network before being configured**
 
-##Remaining tasks :
+## Remaining tasks :
 - Add whole organization DNS configuration modification feature.
 - Add network static device primary DNS modification feature.
 - Add network static device secondary DNS modification feature.

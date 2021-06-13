@@ -1,6 +1,9 @@
 # meraki-automation-dns
 
 This project main goal is to simplify modifying the DNS configuration of devices inside a Meraki network.  
+
+## Installation
+
 It was made using Python 3.8, the Meraki API v1 release that can be found [here](https://github.com/meraki/dashboard-api-python), and you can install it via [PyPI](https://pypi.org/project/meraki/):
 
         pip install meraki
@@ -8,8 +11,14 @@ It also uses the 'ipaddress'  library for network checks:
 
         pip install ipaddress
 
+## How to use
 
-**This script is still in development.**
+Simply launch the main.py file.
+
+        python main.py
+
+
+**Remember, this script is still in development.**
 ## Features
 
 The AutomationCore class contains functions that permits you to automatically modify the devices DNS configuration.

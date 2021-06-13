@@ -18,7 +18,7 @@ Simply launch the main.py file.
         python main.py
 
 
-**Remember, this script is still in development.**
+**Remember, this script is still under development.**
 ## Features
 
 The AutomationCore class contains functions that permits you to automatically modify the devices DNS configuration.

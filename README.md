@@ -43,6 +43,10 @@ This script also has a friendly-user interface to prevent errors.
 **WARNING :**    
 **Devices needs to be already claimed in the right network before being configured**
 
+## Example 
+
+![Meraki_Automation_DNS_Example](https://user-images.githubusercontent.com/37616388/121931267-af26f180-cd43-11eb-84f7-42e77ccc6faf.gif)
+
 
 ## Remaining tasks :
 - Add whole organization DNS configuration modification feature.

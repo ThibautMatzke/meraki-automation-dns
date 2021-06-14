@@ -1,6 +1,6 @@
 # meraki-automation-dns
 
-This project main goal is to simplify modifying the DNS configuration of devices inside a Meraki network.  
+This project main goal is to simplify modifying the DNS configuration of devices inside a Meraki network.
 
 ## Installation
 
@@ -37,9 +37,12 @@ It will modify all the given network static IP devices DNS configuration.
 It also checks if the provided DNS are valid IPV4 IP addresses.
 This script also has a friendly-user interface to prevent errors.
 
+**This was tested & worked on MX & MR devices. It should work on any static IP device with a WAN1 interface, but it hasn't been tested yet.**
+
 
 **WARNING :**    
 **Devices needs to be already claimed in the right network before being configured**
+
 
 ## Remaining tasks :
 - Add whole organization DNS configuration modification feature.

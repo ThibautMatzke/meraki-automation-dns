@@ -14,7 +14,7 @@ class ProjectApp(tk.Tk):
 
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, **kwargs)
-        self.title('Meraki-automation-api-V1')
+        self.title('Meraki-automation-dns')
         self.minsize(480, 360)
         self.geometry("800x600")
         # Setting background color

@@ -1,3 +1,4 @@
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/ThibautMatzke/meraki-automation-dns)
 # meraki-automation-dns
 
 This project main goal is to simplify modifying the DNS configuration of devices inside a Meraki network.

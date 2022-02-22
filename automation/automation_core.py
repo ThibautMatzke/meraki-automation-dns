@@ -84,12 +84,13 @@ class AutomationCore:
 
             # Tries to create a persistent Meraki Dashboard API session with the given api_key
             self._dashboard = meraki.DashboardAPI(api_key=api_key)
+            self._dashboard.organizations.getOrganizations()
 
             # Return true the key is valid
             return True
 
         # Catches the error if the API Key isn't valid
-        except meraki.APIKeyError as e:
+        except (meraki.APIKeyError, meraki.APIError) as e:
 
             # Prints the error message
             print(e)

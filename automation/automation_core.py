@@ -79,11 +79,10 @@ class AutomationCore:
         :param api_key:
         :return:
         """
-        # Creates a persistent Meraki Dashboard API session with the given api_key
 
         try:
 
-            # Tries a function to see if the API Key is valid
+            # Tries to create a persistent Meraki Dashboard API session with the given api_key
             self._dashboard = meraki.DashboardAPI(api_key=api_key)
 
             # Return true the key is valid

@@ -80,18 +80,17 @@ class AutomationCore:
         :return:
         """
         # Creates a persistent Meraki Dashboard API session with the given api_key
-        self._dashboard = meraki.DashboardAPI(api_key=api_key)
 
         try:
 
             # Tries a function to see if the API Key is valid
-            self._dashboard.organizations.getOrganizations()
+            self._dashboard = meraki.DashboardAPI(api_key=api_key)
 
             # Return true the key is valid
             return True
 
         # Catches the error if the API Key isn't valid
-        except meraki.APIError as e:
+        except meraki.APIKeyError as e:
 
             # Prints the error message
             print(e)
